@@ -7,7 +7,7 @@ function addVocabulary() {
     germanText.value = '';
     englishText.value = '';
 
-    localStorage.setItem('dictionary2', JSON.stringify(dictionary));
+    localStorage.setItem('dictionary', JSON.stringify(dictionary));
     render();
 }
 
